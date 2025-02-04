@@ -19,8 +19,8 @@ WORKDIR /root/ros2_ws/src
 RUN git clone -b main https://github.com/moveit/moveit2_tutorials && \
     vcs import --recursive < moveit2_tutorials/moveit2_tutorials.repos && \
     sudo apt update && \
-    rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
-
+    rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y 
+RUN apt install blender
 
 # Set ROS 2 environment
 SHELL ["/bin/bash", "-c"]
