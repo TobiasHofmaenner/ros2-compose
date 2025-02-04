@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  ros2:
+    container_name: ros2_jazzy
+    build:
+      context: .
+      dockerfile: Dockerfile
+    privileged: true
+    runtime: nvidia
+    environment:
+      - DISPLAY=${DISPLAY}
+      - NVIDIA_DRIVER_CAPABILITIES=all
+      - NVIDIA_VISIBLE_DEVICES=all
+      - QT_X11_NO_MITSHM=1  # Fixes Qt apps failing to launch
+      - XDG_RUNTIME_DIR=/tmp/runtime-root
+    volumes:
+      - ./ros2_ws:/root/ros2_ws  # Mount workspace persistently
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw  # Allow GUI apps to connect to X server
+    network_mode: "host"
+    stdin_open: true
+    tty: true
+

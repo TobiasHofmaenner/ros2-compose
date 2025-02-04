@@ -1,0 +1,149 @@
+[0.013s] Invoking command in '/root/ros2_ws/build/kortex_description': AMENT_PREFIX_PATH=/root/ros2_ws/install/robotiq_description:/root/ros2_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/robotiq_description:/root/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros2_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /root/ros2_ws/src/ros2_kortex/kortex_description -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/kortex_description
+[0.095s] -- The C compiler identification is GNU 13.3.0
+[0.185s] -- The CXX compiler identification is GNU 13.3.0
+[0.208s] -- Detecting C compiler ABI info
+[0.338s] -- Detecting C compiler ABI info - done
+[0.354s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.354s] -- Detecting C compile features
+[0.355s] -- Detecting C compile features - done
+[0.367s] -- Detecting CXX compiler ABI info
+[0.492s] -- Detecting CXX compiler ABI info - done
+[0.511s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.511s] -- Detecting CXX compile features
+[0.512s] -- Detecting CXX compile features - done
+[0.518s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.709s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.008s] -- Configuring done (1.0s)
+[1.012s] -- Generating done (0.0s)
+[1.015s] -- Build files have been written to: /root/ros2_ws/build/kortex_description
+[1.022s] Invoked command in '/root/ros2_ws/build/kortex_description' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/robotiq_description:/root/ros2_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/robotiq_description:/root/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros2_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /root/ros2_ws/src/ros2_kortex/kortex_description -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/kortex_description
+[1.023s] Invoking command in '/root/ros2_ws/build/kortex_description': AMENT_PREFIX_PATH=/root/ros2_ws/install/robotiq_description:/root/ros2_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/robotiq_description:/root/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros2_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/ros2_ws/build/kortex_description -- -j20 -l20
+[1.076s] Invoked command in '/root/ros2_ws/build/kortex_description' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/robotiq_description:/root/ros2_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/robotiq_description:/root/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros2_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/ros2_ws/build/kortex_description -- -j20 -l20
+[1.077s] Invoking command in '/root/ros2_ws/build/kortex_description': AMENT_PREFIX_PATH=/root/ros2_ws/install/robotiq_description:/root/ros2_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/robotiq_description:/root/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros2_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/ros2_ws/build/kortex_description
+[1.089s] -- Install configuration: ""
+[1.089s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms
+[1.090s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite
+[1.090s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof
+[1.090s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/urdf
+[1.090s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/urdf/gen3_lite_transmission_macro.xacro
+[1.091s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/urdf/gen3_lite_macro.xacro
+[1.091s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/urdf/kortex.ros2_control.xacro
+[1.091s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/config
+[1.091s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/config/twist_limits.yaml
+[1.091s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/config/ros2_controllers.yaml
+[1.091s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/config/joint_limits.yaml
+[1.091s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes
+[1.092s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/shoulder_link.STL
+[1.092s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/forearm_link.STL
+[1.092s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/lower_wrist_link.STL
+[1.092s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/base_link.STL
+[1.093s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/arm_link.STL
+[1.094s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/upper_wrist_link.STL
+[1.095s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3
+[1.095s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof
+[1.095s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/urdf
+[1.095s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/urdf/gen3_transmission_macro.xacro
+[1.095s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/urdf/gen3_macro.xacro
+[1.096s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/urdf/kortex.ros2_control.xacro
+[1.096s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/config
+[1.096s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/config/gazebo_initial_joint_positions.yaml
+[1.096s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/config/twist_limits.yaml
+[1.096s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/config/ros2_controllers.yaml
+[1.097s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/config/joint_limits.yaml
+[1.097s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes
+[1.097s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/shoulder_link.dae
+[1.097s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_1_link.dae
+[1.097s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_1_link.STL
+[1.097s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/half_arm_2_link.STL
+[1.098s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/forearm_link.dae
+[1.098s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/bracelet_with_vision_link.dae
+[1.098s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/shoulder_link.STL
+[1.099s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/forearm_link.STL
+[1.099s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/bracelet_with_vision_link.STL
+[1.100s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/half_arm_1_link.dae
+[1.100s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/half_arm_2_link.dae
+[1.101s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/base_link.STL
+[1.101s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_2_link.dae
+[1.101s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/end_effector_link.STL
+[1.102s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/bracelet_no_vision_link.dae
+[1.102s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_2_link.STL
+[1.103s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/bracelet_no_vision_link.STL
+[1.104s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/half_arm_1_link.STL
+[1.104s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/base_link.dae
+[1.104s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof
+[1.105s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/urdf
+[1.105s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/urdf/gen3_transmission_macro.xacro
+[1.105s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/urdf/gen3_macro.xacro
+[1.105s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/urdf/kortex.ros2_control.xacro
+[1.105s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/config
+[1.106s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/config/gazebo_initial_joint_positions.yaml
+[1.106s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/config/twist_limits.yaml
+[1.106s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/config/ros2_controllers.yaml
+[1.106s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/config/joint_limits.yaml
+[1.106s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes
+[1.107s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/spherical_wrist_1_link.STL
+[1.107s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/bicep_link.STL
+[1.107s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/shoulder_link.STL
+[1.107s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/forearm_link.STL
+[1.107s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/bracelet_with_vision_link.STL
+[1.108s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/base_link.STL
+[1.109s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/spherical_wrist_2_link.STL
+[1.109s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/bracelet_no_vision_link.STL
+[1.110s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers
+[1.110s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_85
+[1.111s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_85/LICENSE
+[1.111s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_85/README.md
+[1.111s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_85/urdf
+[1.111s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_85/urdf/robotiq_2f_85_macro.xacro
+[1.111s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f
+[1.111s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf
+[1.111s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf/GEN3-LITE-GRIPPER_URDF_SIMPLIFIED_V2.urdf
+[1.111s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f_macro.xacro
+[1.112s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f_transmission_macro.xacro
+[1.112s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f.ros2_control.xacro
+[1.112s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/config
+[1.112s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/config/joint_limits.yaml
+[1.112s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes
+[1.113s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/right_finger_dist_link.STL
+[1.113s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/left_finger_prox_link.STL
+[1.113s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/left_finger_dist_link.STL
+[1.113s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/gripper_base_link.STL
+[1.113s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/right_finger_prox_link.STL
+[1.114s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_140
+[1.114s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_140/LICENSE
+[1.114s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_140/README.md
+[1.115s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_140/urdf
+[1.115s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_140/urdf/robotiq_2f_140_macro.xacro
+[1.115s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/launch
+[1.115s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/launch/view_robot.launch.py
+[1.115s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/multiple_robots
+[1.115s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/multiple_robots/kortex_dual_robots.xacro
+[1.115s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/robots
+[1.116s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/robots/gen3_2f85.urdf
+[1.116s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/robots/gen3_lite_gen3_lite_2f.xacro
+[1.116s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/robots/gen3_lite.urdf
+[1.116s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/robots/gen3.xacro
+[1.116s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/robots/kortex_robot.xacro
+[1.116s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/robots/gen3_robotiq_2f_140.xacro
+[1.116s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/robots/gen3_robotiq_2f_85.xacro
+[1.116s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/robots/kinova.urdf.xacro
+[1.117s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/rviz
+[1.117s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/rviz/view_robot.rviz
+[1.117s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/config
+[1.117s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/config/initial_positions.yaml
+[1.117s] -- Installing: /root/ros2_ws/install/kortex_description/share/ament_index/resource_index/package_run_dependencies/kortex_description
+[1.118s] -- Installing: /root/ros2_ws/install/kortex_description/share/ament_index/resource_index/parent_prefix_path/kortex_description
+[1.118s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/environment/ament_prefix_path.sh
+[1.118s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/environment/ament_prefix_path.dsv
+[1.118s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/environment/path.sh
+[1.119s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/environment/path.dsv
+[1.119s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/local_setup.bash
+[1.119s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/local_setup.sh
+[1.119s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/local_setup.zsh
+[1.119s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/local_setup.dsv
+[1.120s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/package.dsv
+[1.120s] -- Installing: /root/ros2_ws/install/kortex_description/share/ament_index/resource_index/packages/kortex_description
+[1.120s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/cmake/kortex_descriptionConfig.cmake
+[1.120s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/cmake/kortex_descriptionConfig-version.cmake
+[1.120s] -- Installing: /root/ros2_ws/install/kortex_description/share/kortex_description/package.xml
+[1.122s] Invoked command in '/root/ros2_ws/build/kortex_description' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/robotiq_description:/root/ros2_ws/install/gz_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/robotiq_description:/root/ros2_ws/install/gz_ros2_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros2_ws/install/gz_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/ros2_ws/build/kortex_description

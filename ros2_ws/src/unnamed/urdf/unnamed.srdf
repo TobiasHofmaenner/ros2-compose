@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<robot name="unnamed">
+  
+  <!-- Define the planning group: This includes the moving parts of the system -->
+  <group name="platform">
+    <chain base_link="base_link" tip_link="SOLID001_link"/>
+    <joint name="SOLID001_link_joint"/>
+    <joint name="ZahnradGross003_link_joint"/>
+    <joint name="ZahnradGross004_link_joint"/>
+  </group>
+
+  <!-- Virtual joint to allow MoveIt to plan in Gazebo (attaching to world) -->
+  <virtual_joint name="world_joint" type="fixed" parent_frame="world" child_link="base_link"/>
+
+  <!-- End effector definition (if needed in the future) -->
+  <group name="end_effector">
+    <link name="SOLID001_link"/>
+  </group>
+
+  <!-- Default joint positions -->
+  <group_state name="default" group="platform">
+    <joint name="SOLID001_link_joint" value="0.0"/>
+    <joint name="ZahnradGross003_link_joint" value="0.0"/>
+    <joint name="ZahnradGross004_link_joint" value="0.0"/>
+  </group_state>
+
+  <!-- Define self-collisions for optimization -->
+  <disable_collisions link1="ZahnradGross003_link" link2="ZahnradGross004_link" reason="adjacent"/>
+  <disable_collisions link1="ZahnradGross004_link" link2="SOLID001_link" reason="adjacent"/>
+
+  <!-- Allowable motion planning constraints -->
+  <kinematics_solver group="platform" kinematics_solver="kdl_kinematics_plugin/KDLKinematicsPlugin"/>
+</robot>
+

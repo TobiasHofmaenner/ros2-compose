@@ -1,0 +1,52 @@
+[0.274s] Invoking command in '/root/ros2_ws/build/unnamed': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/moveit_configs_utils:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/unnamed -- -j20 -l20
+[0.503s] Invoked command in '/root/ros2_ws/build/unnamed' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/moveit_configs_utils:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/unnamed -- -j20 -l20
+[0.504s] Invoking command in '/root/ros2_ws/build/unnamed': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/moveit_configs_utils:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/unnamed
+[0.556s] -- Install configuration: ""
+[0.557s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/urdf
+[0.557s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/urdf/bak
+[0.557s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/urdf/test.urdf
+[0.557s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/urdf/trans5.py
+[0.557s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/urdf/unnamed.srdf
+[0.557s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/urdf/unnamed_relpath.urdf
+[0.557s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/urdf/trans.py
+[0.558s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/urdf/trans3.py
+[0.558s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/urdf/unnamed.urdf
+[0.558s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/urdf/trans2.py
+[0.558s] -- Installing: /root/ros2_ws/install/unnamed/share/unnamed/urdf/robot.xacro
+[0.558s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/urdf/trans4.py
+[0.558s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/urdf/rep.py
+[0.559s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/meshes
+[0.559s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl
+[0.559s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/SOLID.stl_history.log
+[0.559s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/ZahnradGross.stl
+[0.559s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/ZahnradGross.001.stl_history.log
+[0.559s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/Body.stl_history.log
+[0.559s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/ZahnradGross.001.stl
+[0.559s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/ZahnradGross.stl_history.log
+[0.560s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/Cylinder.001.stl
+[0.560s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/SOLID.stl
+[0.560s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/Cylinder.001.stl_history.log
+[0.560s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/Body.stl
+[0.560s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/launch
+[0.560s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/launch/display.launch.py
+[0.561s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/launch/gazebo.launch.py
+[0.561s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/launch/controller_manager.launch.py
+[0.561s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/config/ros2_controllers.yaml
+[0.561s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/worlds
+[0.561s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/worlds/empty_world.sdf
+[0.561s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/ament_index/resource_index/package_run_dependencies/unnamed
+[0.562s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/ament_index/resource_index/parent_prefix_path/unnamed
+[0.562s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/environment/ament_prefix_path.sh
+[0.562s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/environment/ament_prefix_path.dsv
+[0.562s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/environment/path.sh
+[0.563s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/environment/path.dsv
+[0.564s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/local_setup.bash
+[0.564s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/local_setup.sh
+[0.564s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/local_setup.zsh
+[0.564s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/local_setup.dsv
+[0.564s] -- Installing: /root/ros2_ws/install/unnamed/share/unnamed/package.dsv
+[0.564s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/ament_index/resource_index/packages/unnamed
+[0.564s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/cmake/unnamedConfig.cmake
+[0.564s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/cmake/unnamedConfig-version.cmake
+[0.565s] -- Up-to-date: /root/ros2_ws/install/unnamed/share/unnamed/package.xml
+[0.656s] Invoked command in '/root/ros2_ws/build/unnamed' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/moveit_configs_utils:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/unnamed

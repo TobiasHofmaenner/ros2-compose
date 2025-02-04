@@ -1,0 +1,38 @@
+SOLID001_link_joint_controller:
+  ros__parameters:
+    command_interfaces:
+    - position
+    joints:
+    - SOLID001_link_joint
+    state_interfaces:
+    - position
+    - velocity
+ZahnradGross003_link_joint_controller:
+  ros__parameters:
+    command_interfaces:
+    - position
+    joints:
+    - ZahnradGross003_link_joint
+    state_interfaces:
+    - position
+    - velocity
+ZahnradGross004_link_joint_controller:
+  ros__parameters:
+    command_interfaces:
+    - position
+    joints:
+    - ZahnradGross004_link_joint
+    state_interfaces:
+    - position
+    - velocity
+controller_manager:
+  ros__parameters:
+    SOLID001_link_joint_controller:
+      type: position_controllers/JointGroupPositionController
+    ZahnradGross003_link_joint_controller:
+      type: position_controllers/JointGroupPositionController
+    ZahnradGross004_link_joint_controller:
+      type: position_controllers/JointGroupPositionController
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    update_rate: 100

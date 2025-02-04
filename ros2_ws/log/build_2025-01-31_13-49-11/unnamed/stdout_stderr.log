@@ -1,0 +1,81 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rviz2: 14.1.5 (/opt/ros/jazzy/share/rviz2/cmake)
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/ros2_ws/build/unnamed
+-- Install configuration: ""
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/urdf
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/urdf/bak
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/urdf/trans5.py
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/urdf/unnamed.srdf
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/urdf/unnamed_relpath.urdf
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/urdf/trans.py
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/urdf/trans3.py
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/urdf/unnamed.urdf
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/urdf/trans2.py
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/urdf/robot.xacro
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/urdf/trans4.py
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/urdf/rep.py
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/meshes
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/SOLID.stl_history.log
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/ZahnradGross.stl
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/ZahnradGross.001.stl_history.log
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/Body.stl_history.log
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/ZahnradGross.001.stl
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/ZahnradGross.stl_history.log
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/Cylinder.001.stl
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/SOLID.stl
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/Cylinder.001.stl_history.log
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/meshes/stl/Body.stl
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/launch
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/launch/display.launch.py
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/launch/gazebo.launch.py
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/launch/controller_manager.launch.py
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/config/ros2_controllers.yaml
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/worlds
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/worlds/empty_world.sdf
+-- Installing: /root/ros2_ws/install/unnamed/share/ament_index/resource_index/package_run_dependencies/unnamed
+-- Installing: /root/ros2_ws/install/unnamed/share/ament_index/resource_index/parent_prefix_path/unnamed
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/environment/path.sh
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/environment/path.dsv
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/local_setup.bash
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/local_setup.sh
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/local_setup.zsh
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/local_setup.dsv
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/package.dsv
+-- Installing: /root/ros2_ws/install/unnamed/share/ament_index/resource_index/packages/unnamed
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/cmake/unnamedConfig.cmake
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/cmake/unnamedConfig-version.cmake
+-- Installing: /root/ros2_ws/install/unnamed/share/unnamed/package.xml

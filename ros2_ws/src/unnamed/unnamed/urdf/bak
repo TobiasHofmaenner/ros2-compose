@@ -1,0 +1,149 @@
+<robot name="unnamed" version="1.0">
+ <xacro:include filename="$(find unnamed)/urdf/ros2_control.xacro"/> 
+ <joint name="SOLID001_link_joint" type="continuous">
+    <limit lower="0" upper="0" effort="0.00000" velocity="0.00000"/>
+    <origin rpy="0.00000 0.00000 0.00000" xyz="-0.35193 -0.19263 0.42188"/>
+    <parent link="ZahnradGross004_link"/>
+    <child link="SOLID001_link"/>
+    <axis xyz="0.00000 0.00000 1.00000"/>
+  </joint>
+  <joint name="ZahnradGross003_link_joint" type="continuous">
+    <limit lower="0" upper="0" effort="0.00000" velocity="0.00000"/>
+    <origin rpy="-1.57080 0.00000 0.00000" xyz="-0.00000 0.69593 0.55439"/>
+    <parent link="Body001_link"/>
+    <child link="ZahnradGross003_link"/>
+    <axis xyz="0.00000 0.00000 1.00000"/>
+  </joint>
+  <joint name="ZahnradGross004_link_joint" type="continuous">
+    <limit lower="0" upper="0" effort="0.00000" velocity="0.00000"/>
+    <origin rpy="0.00000 0.00000 0.00000" xyz="-0.35885 -0.17906 0.12975"/>
+    <parent link="ZahnradGross003_link"/>
+    <child link="ZahnradGross004_link"/>
+    <axis xyz="0.00000 0.00000 1.00000"/>
+  </joint>
+  <link name="Body001_link">
+    <collision name="Base_collision">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <geometry>
+        <mesh filename="package://unnamed/meshes/stl/Body.stl" scale="11.79544 11.79544 11.79544"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <inertia ixx="1.41731" ixy="0.00042" ixz="0.00026" iyy="0.62211" iyz="-0.12034" izz="1.39114"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 -0.14993 0.17821"/>
+      <mass value="10.00000"/>
+    </inertial>
+    <visual name="Base">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <material name="Material.001"/>
+      <geometry>
+        <mesh filename="package://unnamed/meshes/stl/Body.stl" scale="11.79544 11.79544 11.79544"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="SOLID001_link">
+    <collision name="SOLID001_collision">
+      <origin rpy="1.50960 1.57080 0.43890" xyz="0.07336 -0.08760 0.19316"/>
+      <geometry>
+        <box size="1.18397 1.13183 0.09876"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <inertia ixx="0.10421" ixy="-0.00000" ixz="0.00000" iyy="0.09681" iyz="0.00768" izz="0.19068"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.05006 -0.08470 0.16790"/>
+      <mass value="1.00000"/>
+    </inertial>
+    <visual name="SOLID001">
+      <origin rpy="1.07071 1.57080 0.00000" xyz="0.03393 -0.06178 0.16789"/>
+      <material name="Material.004"/>
+      <geometry>
+        <mesh filename="package://unnamed/meshes/stl/SOLID.stl" scale="11.79544 11.79544 11.79544"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="ZahnradGross003_link">
+    <collision name="ZahnradGross003_collision">
+      <origin rpy="-3.14159 0.00000 -1.10796" xyz="-0.00004 -0.00002 -0.02198"/>
+      <geometry>
+        <mesh filename="package://unnamed/meshes/stl/Cylinder.001.stl" scale="1.00474 1.00474 0.36513"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <inertia ixx="0.08436" ixy="-0.00176" ixz="-0.00000" iyy="0.03283" iyz="-0.00000" izz="0.05282"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="-0.02288 -0.01142 -0.02431"/>
+      <mass value="1.00000"/>
+    </inertial>
+    <visual name="ZahnradGross003">
+      <origin rpy="-2.03363 1.57080 0.00000" xyz="-0.00000 -0.00000 0.00000"/>
+      <material name="Material.002"/>
+      <geometry>
+        <mesh filename="package://unnamed/meshes/stl/ZahnradGross.stl" scale="11.79544 11.79544 11.79544"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="ZahnradGross004_link">
+    <collision name="ZahnradGross004_collision">
+      <origin rpy="-3.14159 0.00000 -1.07071" xyz="-0.00004 -0.00002 -0.02254"/>
+      <geometry>
+        <cylinder radius="0.45900" length="0.05712"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <inertia ixx="0.08436" ixy="-0.00176" ixz="-0.00000" iyy="0.03283" iyz="-0.00000" izz="0.05282"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="-0.02244 -0.01226 -0.02431"/>
+      <mass value="1.00000"/>
+    </inertial>
+    <visual name="ZahnradGross004">
+      <origin rpy="-0.14637 1.57080 1.92452" xyz="0.00000 0.00000 -0.00000"/>
+      <material name="Material.003"/>
+      <geometry>
+        <mesh filename="package://unnamed/meshes/stl/ZahnradGross.001.stl" scale="11.79544 11.79545 11.79545"/>
+      </geometry>
+    </visual>
+  </link>
+  <material name="Material.001">
+    <color rgba="0.30980 0.30196 0.80000 1.00000"/>
+  </material>
+  <material name="Material.002">
+    <color rgba="0.80000 0.80000 0.80000 1.00000"/>
+  </material>
+  <material name="Material.003">
+    <color rgba="0.80000 0.80000 0.80000 1.00000"/>
+  </material>
+  <material name="Material.004">
+    <color rgba="0.80000 0.80000 0.80000 1.00000"/>
+  </material>
+
+  <transmission name="SOLID001_link_joint_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="SOLID001_link_joint">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="SOLID001_link_joint_actuator">
+      <mechanicalReduction>1.0</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+
+  <transmission name="ZahnradGross003_link_joint_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="ZahnradGross003_link_joint">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="ZahnradGross003_link_joint_actuator">
+      <mechanicalReduction>1.0</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+
+  <transmission name="ZahnradGross004_link_joint_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="ZahnradGross004_link_joint">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="ZahnradGross004_link_joint_actuator">
+      <mechanicalReduction>1.0</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+</robot>

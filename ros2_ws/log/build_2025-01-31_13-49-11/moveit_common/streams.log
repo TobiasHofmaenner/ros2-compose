@@ -1,0 +1,30 @@
+[0.046s] Invoking command in '/root/ros2_ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/moveit2/moveit_common -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit_common
+[0.327s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.328s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.818s] -- Configuring done (0.8s)
+[0.824s] -- Generating done (0.0s)
+[0.827s] -- Build files have been written to: /root/ros2_ws/build/moveit_common
+[0.832s] Invoked command in '/root/ros2_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/moveit2/moveit_common -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit_common
+[0.835s] Invoking command in '/root/ros2_ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/moveit_common -- -j20 -l20
+[1.292s] Invoked command in '/root/ros2_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/moveit_common -- -j20 -l20
+[1.306s] Invoking command in '/root/ros2_ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/moveit_common
+[1.325s] -- Install configuration: ""
+[1.326s] -- Installing: /root/ros2_ws/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[1.326s] -- Installing: /root/ros2_ws/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[1.326s] -- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[1.327s] -- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[1.327s] -- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/environment/path.sh
+[1.328s] -- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/environment/path.dsv
+[1.328s] -- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/local_setup.bash
+[1.328s] -- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/local_setup.sh
+[1.328s] -- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/local_setup.zsh
+[1.328s] -- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/local_setup.dsv
+[1.329s] -- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/package.dsv
+[1.329s] -- Installing: /root/ros2_ws/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[1.329s] -- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[1.330s] -- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[1.330s] -- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[1.330s] -- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/package.xml
+[1.331s] -- Up-to-date: /root/ros2_ws/install/moveit_common/share/moveit_common/cmake
+[1.331s] -- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[1.334s] Invoked command in '/root/ros2_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/moveit_common

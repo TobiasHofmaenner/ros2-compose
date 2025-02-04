@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-eecc7898b164b0450bf5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "common_planning_interface_objects",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-common_planning_interface_objects-Release-6a7fa794f9adb88133eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "common_planning_interface_objects",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "planning_scene_interface",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-planning_scene_interface-Release-d92db885874ee7451351.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "planning_scene_interface",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "move_group_interface",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-move_group_interface-Release-3c39c3ddd8dfb8121ffc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "move_group_interface",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "moveit_ros_planning_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "moveit_common_planning_interface_objects::@d241e0acf862534507df",
+					"jsonFile" : "target-moveit_common_planning_interface_objects-Release-1d598abe60cb7bfc6439.json",
+					"name" : "moveit_common_planning_interface_objects",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "moveit_move_group_interface::@72a424549c93bab47e15",
+					"jsonFile" : "target-moveit_move_group_interface-Release-f459c01c24ee18762b8b.json",
+					"name" : "moveit_move_group_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "moveit_planning_scene_interface::@6c3abca7786dcb89d782",
+					"jsonFile" : "target-moveit_planning_scene_interface-Release-7329bcb6b33d58e7a9db.json",
+					"name" : "moveit_planning_scene_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_ros_planning_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_ros_planning_interface_uninstall-Release-e4eb0923657bc0a9d428.json",
+					"name" : "moveit_ros_planning_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-f1c77ca7258cc71215af.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_ws/build/moveit_ros_planning_interface",
+		"source" : "/root/ros2_ws/src/moveit2/moveit_ros/planning_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

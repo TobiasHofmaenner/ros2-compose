@@ -1,0 +1,70 @@
+[0.016s] Invoking command in '/root/ros2_ws/build/rviz_marker_tools': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/rviz_marker_tools
+[0.134s] -- The C compiler identification is GNU 13.3.0
+[0.228s] -- The CXX compiler identification is GNU 13.3.0
+[0.254s] -- Detecting C compiler ABI info
+[0.427s] -- Detecting C compiler ABI info - done
+[0.440s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.440s] -- Detecting C compile features
+[0.440s] -- Detecting C compile features - done
+[0.451s] -- Detecting CXX compiler ABI info
+[0.583s] -- Detecting CXX compiler ABI info - done
+[0.596s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.596s] -- Detecting CXX compile features
+[0.597s] -- Detecting CXX compile features - done
+[0.606s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.888s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.108s] -- Found moveit_common: 2.12.0 (/root/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+[1.308s] [0mrviz_marker_tools: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[1.314s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.329s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.335s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.482s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.535s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.626s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.770s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.908s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.917s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.061s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.104s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.143s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.366s] -- Found tf2_eigen: 0.36.4 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[2.650s] -- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[2.749s] -- Configuring done (2.7s)
+[2.768s] -- Generating done (0.0s)
+[2.774s] -- Build files have been written to: /root/ros2_ws/build/rviz_marker_tools
+[2.784s] Invoked command in '/root/ros2_ws/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/rviz_marker_tools
+[2.785s] Invoking command in '/root/ros2_ws/build/rviz_marker_tools': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/rviz_marker_tools -- -j20 -l20
+[2.868s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_marker_tools.dir/src/marker_creation.cpp.o[0m
+[12.368s] [100%] [32m[1mLinking CXX shared library librviz_marker_tools.so[0m
+[12.514s] [100%] Built target rviz_marker_tools
+[12.533s] Invoked command in '/root/ros2_ws/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/rviz_marker_tools -- -j20 -l20
+[12.535s] Invoking command in '/root/ros2_ws/build/rviz_marker_tools': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/rviz_marker_tools
+[12.549s] -- Install configuration: "Release"
+[12.549s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/include
+[12.549s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/include/rviz_marker_tools
+[12.550s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/include/rviz_marker_tools/marker_creation.h
+[12.550s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/lib/librviz_marker_tools.so
+[12.550s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/rviz_marker_tools/lib/librviz_marker_tools.so" to ""
+[12.550s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.sh
+[12.551s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.dsv
+[12.551s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/ament_index/resource_index/package_run_dependencies/rviz_marker_tools
+[12.551s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/ament_index/resource_index/parent_prefix_path/rviz_marker_tools
+[12.552s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.sh
+[12.552s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.dsv
+[12.552s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.sh
+[12.552s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.dsv
+[12.552s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.bash
+[12.553s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.sh
+[12.553s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.zsh
+[12.553s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.dsv
+[12.553s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/package.dsv
+[12.554s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/ament_index/resource_index/packages/rviz_marker_tools
+[12.554s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport.cmake
+[12.554s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport-release.cmake
+[12.555s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_targets-extras.cmake
+[12.555s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.555s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig.cmake
+[12.555s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig-version.cmake
+[12.556s] -- Installing: /root/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/package.xml
+[12.556s] Invoked command in '/root/ros2_ws/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/rviz_marker_tools

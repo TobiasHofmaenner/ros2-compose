@@ -1,0 +1,204 @@
+<sdf version='1.11'>
+  <model name='unnamed'>
+    <link name='Body001_link'>
+      <inertial>
+        <pose>0 -0.14993000000000001 0.17821000000000001 0 0 0</pose>
+        <mass>10</mass>
+        <inertia>
+          <ixx>1.4173100000000001</ixx>
+          <ixy>0.00042000000000000002</ixy>
+          <ixz>0.00025999999999999998</ixz>
+          <iyy>0.62211000000000005</iyy>
+          <iyz>-0.12034</iyz>
+          <izz>1.39114</izz>
+        </inertia>
+      </inertial>
+      <collision name='Body001_link_fixed_joint_lump__Base_collision_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>11.795400000000001 11.795400000000001 11.795400000000001</scale>
+            <uri>../unnamed/meshes/stl/Body.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='Body001_link_fixed_joint_lump__Base_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>11.795400000000001 11.795400000000001 11.795400000000001</scale>
+            <uri>../unnamed/meshes/stl/Body.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.387250006 0.377449989 1 1</diffuse>
+          <ambient>0.387250006 0.377449989 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name='ZahnradGross003_link_joint' type='revolute'>
+      <pose relative_to='Body001_link'>0 0.69593000000000005 0.55439000000000005 -1.5708 0 0</pose>
+      <parent>Body001_link</parent>
+      <child>ZahnradGross003_link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <effort>0</effort>
+          <velocity>0</velocity>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='ZahnradGross003_link'>
+      <pose relative_to='ZahnradGross003_link_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>-0.022880000000000001 -0.01142 -0.024309999999999998 0 0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.084360000000000004</ixx>
+          <ixy>-0.0017600000000000001</ixy>
+          <ixz>0</ixz>
+          <iyy>0.032829999999999998</iyy>
+          <iyz>0</iyz>
+          <izz>0.052819999999999999</izz>
+        </inertia>
+      </inertial>
+      <collision name='ZahnradGross003_link_fixed_joint_lump__ZahnradGross003_collision_collision'>
+        <pose>-4.0000000000000003e-05 -2.0000000000000002e-05 -0.02198 -3.1415899999999999 -4.2351647362715017e-22 -1.1079600000000001</pose>
+        <geometry>
+          <mesh>
+            <scale>1.00474 1.00474 0.36513000000000001</scale>
+            <uri>../unnamed/meshes/stl/Cylinder.001.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='ZahnradGross003_link_fixed_joint_lump__ZahnradGross003_visual'>
+        <pose>0 0 0 -2.0336267132468131 1.5707963267948966 0</pose>
+        <geometry>
+          <mesh>
+            <scale>11.795400000000001 11.795400000000001 11.795400000000001</scale>
+            <uri>../unnamed/meshes/stl/ZahnradGross.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name='ZahnradGross004_link_joint' type='revolute'>
+      <pose relative_to='ZahnradGross003_link'>-0.35885 -0.17906 0.12975 0 0 0</pose>
+      <parent>ZahnradGross003_link</parent>
+      <child>ZahnradGross004_link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <effort>0</effort>
+          <velocity>0</velocity>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='ZahnradGross004_link'>
+      <pose relative_to='ZahnradGross004_link_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>-0.022440000000000002 -0.01226 -0.024309999999999998 0 0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.084360000000000004</ixx>
+          <ixy>-0.0017600000000000001</ixy>
+          <ixz>0</ixz>
+          <iyy>0.032829999999999998</iyy>
+          <iyz>0</iyz>
+          <izz>0.052819999999999999</izz>
+        </inertia>
+      </inertial>
+      <collision name='ZahnradGross004_link_fixed_joint_lump__ZahnradGross004_collision_collision'>
+        <pose>-4.0000000000000003e-05 -2.0000000000000002e-05 -0.022540000000000001 -3.1415899999999999 2.1175823681357508e-22 -1.0707100000000001</pose>
+        <geometry>
+          <cylinder>
+            <length>0.057119999999999997</length>
+            <radius>0.45900000000000002</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='ZahnradGross004_link_fixed_joint_lump__ZahnradGross004_visual'>
+        <pose>0 0 0 -2.0708894642716609 1.5707963267948966 0</pose>
+        <geometry>
+          <mesh>
+            <scale>11.795400000000001 11.795500000000001 11.795500000000001</scale>
+            <uri>../unnamed/meshes/stl/ZahnradGross.001.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <joint name='SOLID001_link_joint' type='revolute'>
+      <pose relative_to='ZahnradGross004_link'>-0.35193000000000002 -0.19263 0.42187999999999998 0 0 0</pose>
+      <parent>ZahnradGross004_link</parent>
+      <child>SOLID001_link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <effort>0</effort>
+          <velocity>0</velocity>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='SOLID001_link'>
+      <pose relative_to='SOLID001_link_joint'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0.05006 -0.084699999999999998 0.16789999999999999 0 0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.10421</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.096809999999999993</iyy>
+          <iyz>0.0076800000000000002</iyz>
+          <izz>0.19067999999999999</izz>
+        </inertia>
+      </inertial>
+      <collision name='SOLID001_link_fixed_joint_lump__SOLID001_collision_collision'>
+        <pose>0.073359999999999995 -0.087599999999999997 0.19316 1.070696333671221 1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>1.18397 1.1318299999999999 0.098760000000000001</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='SOLID001_link_fixed_joint_lump__SOLID001_visual'>
+        <pose>0.033930000000000002 -0.061780000000000002 0.16789000000000001 1.0707067766141301 1.5707963267948966 0</pose>
+        <geometry>
+          <mesh>
+            <scale>11.795400000000001 11.795400000000001 11.795400000000001</scale>
+            <uri>../unnamed/meshes/stl/SOLID.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

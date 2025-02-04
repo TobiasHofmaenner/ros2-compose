@@ -1,0 +1,183 @@
+[0.075s] Invoking command in '/root/ros2_ws/build/moveit_py': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_ros_planning_interface:/root/ros2_ws/install/moveit_ros_move_group:/root/ros2_ws/install/moveit_ros_warehouse:/root/ros2_ws/install/moveit_kinematics:/root/ros2_ws/install/moveit_ros_planning:/root/ros2_ws/install/moveit_simple_controller_manager:/root/ros2_ws/install/moveit_ros_occupancy_map_monitor:/root/ros2_ws/install/moveit_core:/root/ros2_ws/install/moveit_resources_panda_moveit_config:/root/ros2_ws/install/moveit_resources_fanuc_moveit_config:/root/ros2_ws/install/moveit_resources_pr2_description:/root/ros2_ws/install/moveit_resources_panda_description:/root/ros2_ws/install/moveit_resources_fanuc_description:/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/moveit_configs_utils:/root/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_ros_planning_interface:/root/ros2_ws/install/moveit_ros_move_group:/root/ros2_ws/install/moveit_ros_warehouse:/root/ros2_ws/install/moveit_kinematics:/root/ros2_ws/install/moveit_ros_planning:/root/ros2_ws/install/moveit_simple_controller_manager:/root/ros2_ws/install/moveit_ros_occupancy_map_monitor:/root/ros2_ws/install/moveit_core:/root/ros2_ws/install/moveit_resources_panda_moveit_config:/root/ros2_ws/install/moveit_resources_fanuc_moveit_config:/root/ros2_ws/install/moveit_resources_pr2_description:/root/ros2_ws/install/moveit_resources_panda_description:/root/ros2_ws/install/moveit_resources_fanuc_description:/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros2_ws/install/moveit_ros_planning_interface/lib:/root/ros2_ws/install/moveit_ros_move_group/lib:/root/ros2_ws/install/moveit_ros_warehouse/lib:/root/ros2_ws/install/moveit_kinematics/lib:/root/ros2_ws/install/moveit_ros_planning/lib:/root/ros2_ws/install/moveit_simple_controller_manager/lib:/root/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/root/ros2_ws/install/moveit_core/lib:/root/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/root/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:/root/ros2_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/moveit2/moveit_py -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit_py
+[0.182s] -- The C compiler identification is GNU 13.3.0
+[0.278s] -- The CXX compiler identification is GNU 13.3.0
+[0.305s] -- Detecting C compiler ABI info
+[0.443s] -- Detecting C compiler ABI info - done
+[0.454s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.454s] -- Detecting C compile features
+[0.455s] -- Detecting C compile features - done
+[0.469s] -- Detecting CXX compiler ABI info
+[0.640s] -- Detecting CXX compiler ABI info - done
+[0.651s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.651s] -- Detecting CXX compile features
+[0.652s] -- Detecting CXX compile features - done
+[0.660s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.912s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.204s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.337s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.368s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.397s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.554s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.561s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.705s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.736s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.778s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.919s] -- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.928s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.980s] -- Found moveit_ros_planning: 2.12.0 (/root/ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[2.245s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[2.284s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[2.319s] -- Found rclcpp_lifecycle: 28.1.5 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.429s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.519s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[2.676s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.676s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.293s] -- Found moveit_ros_planning_interface: 2.12.0 (/root/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[3.299s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[3.320s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[3.362s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[3.719s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development Development.Module Development.Embed 
+[3.725s] -- Found pybind11_vendor: 3.1.2 (/opt/ros/jazzy/share/pybind11_vendor/cmake)
+[3.783s] -- Performing Test HAS_FLTO
+[3.982s] -- Performing Test HAS_FLTO - Success
+[3.983s] -- Found pybind11: /usr/include (found version "2.11.1")
+[4.129s] -- Found ament_cmake_pytest: 2.5.2 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[5.442s] -- Configuring done (5.3s)
+[5.523s] -- Generating done (0.1s)
+[5.539s] -- Build files have been written to: /root/ros2_ws/build/moveit_py
+[5.561s] Invoked command in '/root/ros2_ws/build/moveit_py' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_ros_planning_interface:/root/ros2_ws/install/moveit_ros_move_group:/root/ros2_ws/install/moveit_ros_warehouse:/root/ros2_ws/install/moveit_kinematics:/root/ros2_ws/install/moveit_ros_planning:/root/ros2_ws/install/moveit_simple_controller_manager:/root/ros2_ws/install/moveit_ros_occupancy_map_monitor:/root/ros2_ws/install/moveit_core:/root/ros2_ws/install/moveit_resources_panda_moveit_config:/root/ros2_ws/install/moveit_resources_fanuc_moveit_config:/root/ros2_ws/install/moveit_resources_pr2_description:/root/ros2_ws/install/moveit_resources_panda_description:/root/ros2_ws/install/moveit_resources_fanuc_description:/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/moveit_configs_utils:/root/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_ros_planning_interface:/root/ros2_ws/install/moveit_ros_move_group:/root/ros2_ws/install/moveit_ros_warehouse:/root/ros2_ws/install/moveit_kinematics:/root/ros2_ws/install/moveit_ros_planning:/root/ros2_ws/install/moveit_simple_controller_manager:/root/ros2_ws/install/moveit_ros_occupancy_map_monitor:/root/ros2_ws/install/moveit_core:/root/ros2_ws/install/moveit_resources_panda_moveit_config:/root/ros2_ws/install/moveit_resources_fanuc_moveit_config:/root/ros2_ws/install/moveit_resources_pr2_description:/root/ros2_ws/install/moveit_resources_panda_description:/root/ros2_ws/install/moveit_resources_fanuc_description:/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros2_ws/install/moveit_ros_planning_interface/lib:/root/ros2_ws/install/moveit_ros_move_group/lib:/root/ros2_ws/install/moveit_ros_warehouse/lib:/root/ros2_ws/install/moveit_kinematics/lib:/root/ros2_ws/install/moveit_ros_planning/lib:/root/ros2_ws/install/moveit_simple_controller_manager/lib:/root/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/root/ros2_ws/install/moveit_core/lib:/root/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/root/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:/root/ros2_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/moveit2/moveit_py -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit_py
+[5.562s] Invoking command in '/root/ros2_ws/build/moveit_py': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_ros_planning_interface:/root/ros2_ws/install/moveit_ros_move_group:/root/ros2_ws/install/moveit_ros_warehouse:/root/ros2_ws/install/moveit_kinematics:/root/ros2_ws/install/moveit_ros_planning:/root/ros2_ws/install/moveit_simple_controller_manager:/root/ros2_ws/install/moveit_ros_occupancy_map_monitor:/root/ros2_ws/install/moveit_core:/root/ros2_ws/install/moveit_resources_panda_moveit_config:/root/ros2_ws/install/moveit_resources_fanuc_moveit_config:/root/ros2_ws/install/moveit_resources_pr2_description:/root/ros2_ws/install/moveit_resources_panda_description:/root/ros2_ws/install/moveit_resources_fanuc_description:/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/moveit_configs_utils:/root/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_ros_planning_interface:/root/ros2_ws/install/moveit_ros_move_group:/root/ros2_ws/install/moveit_ros_warehouse:/root/ros2_ws/install/moveit_kinematics:/root/ros2_ws/install/moveit_ros_planning:/root/ros2_ws/install/moveit_simple_controller_manager:/root/ros2_ws/install/moveit_ros_occupancy_map_monitor:/root/ros2_ws/install/moveit_core:/root/ros2_ws/install/moveit_resources_panda_moveit_config:/root/ros2_ws/install/moveit_resources_fanuc_moveit_config:/root/ros2_ws/install/moveit_resources_pr2_description:/root/ros2_ws/install/moveit_resources_panda_description:/root/ros2_ws/install/moveit_resources_fanuc_description:/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros2_ws/install/moveit_ros_planning_interface/lib:/root/ros2_ws/install/moveit_ros_move_group/lib:/root/ros2_ws/install/moveit_ros_warehouse/lib:/root/ros2_ws/install/moveit_kinematics/lib:/root/ros2_ws/install/moveit_ros_planning/lib:/root/ros2_ws/install/moveit_simple_controller_manager/lib:/root/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/root/ros2_ws/install/moveit_core/lib:/root/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/root/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:/root/ros2_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/build/moveit_py -- -j20 -l20
+[5.697s] [  0%] Built target ament_cmake_python_copy_moveit
+[5.700s] [  4%] [32mBuilding CXX object src/moveit/moveit_py_utils/CMakeFiles/moveit_py_utils.dir/src/copy_ros_msg.cpp.o[0m
+[5.705s] [  8%] [32mBuilding CXX object src/moveit/moveit_py_utils/CMakeFiles/moveit_py_utils.dir/src/ros_msg_typecasters.cpp.o[0m
+[6.268s] running egg_info
+[6.271s] creating moveit.egg-info
+[6.333s] writing moveit.egg-info/PKG-INFO
+[6.333s] writing dependency_links to moveit.egg-info/dependency_links.txt
+[6.334s] writing top-level names to moveit.egg-info/top_level.txt
+[6.334s] writing manifest file 'moveit.egg-info/SOURCES.txt'
+[6.523s] reading manifest file 'moveit.egg-info/SOURCES.txt'
+[6.524s] writing manifest file 'moveit.egg-info/SOURCES.txt'
+[6.588s] [  8%] Built target ament_cmake_python_build_moveit_egg
+[19.060s] [ 12%] [32m[1mLinking CXX shared library libmoveit_py_utils.so[0m
+[20.653s] [ 12%] Built target moveit_py_utils
+[20.698s] [ 16%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/core.cpp.o[0m
+[20.701s] [ 20%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/controller_manager/controller_manager.cpp.o[0m
+[20.701s] [ 25%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/collision_detection/collision_common.cpp.o[0m
+[20.707s] [ 29%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/collision_detection/world.cpp.o[0m
+[20.709s] [ 33%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/kinematic_constraints/utils.cpp.o[0m
+[20.718s] [ 37%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/collision_detection/collision_matrix.cpp.o[0m
+[20.718s] [ 45%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/robot_model/joint_model.cpp.o[0m
+[20.724s] [ 45%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/planning_interface/planning_response.cpp.o[0m
+[20.726s] [ 50%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/planning_scene/planning_scene.cpp.o[0m
+[20.753s] [ 58%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/transforms/transforms.cpp.o[0m
+[20.753s] [ 58%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/robot_state/robot_state.cpp.o[0m
+[20.756s] [ 62%] [32mBuilding CXX object CMakeFiles/planning.dir/src/moveit/moveit_ros/moveit_cpp/moveit_cpp.cpp.o[0m
+[20.760s] [ 66%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/robot_model/robot_model.cpp.o[0m
+[20.763s] [ 70%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/robot_model/joint_model_group.cpp.o[0m
+[20.765s] [ 75%] [32mBuilding CXX object CMakeFiles/planning.dir/src/moveit/planning.cpp.o[0m
+[20.770s] [ 79%] [32mBuilding CXX object CMakeFiles/core.dir/src/moveit/moveit_core/robot_trajectory/robot_trajectory.cpp.o[0m
+[20.772s] [ 83%] [32mBuilding CXX object CMakeFiles/planning.dir/src/moveit/moveit_ros/planning_scene_monitor/planning_scene_monitor.cpp.o[0m
+[20.777s] [ 87%] [32mBuilding CXX object CMakeFiles/planning.dir/src/moveit/moveit_ros/trajectory_execution_manager/trajectory_execution_manager.cpp.o[0m
+[20.778s] [ 91%] [32mBuilding CXX object CMakeFiles/planning.dir/src/moveit/moveit_ros/moveit_cpp/planning_component.cpp.o[0m
+[74.242s] [ 95%] [32m[1mLinking CXX shared module test_moveit/core.cpython-312-x86_64-linux-gnu.so[0m
+[78.199s] [01m[Klto-wrapper:[m[K [01;35m[Kwarning: [m[Kusing serial compilation of 3 LTRANS jobs
+[78.199s] [01m[Klto-wrapper:[m[K [01;36m[Knote: [m[Ksee the ‘[01m[K-flto[m[K’ option documentation for more information
+[83.904s] [100%] [32m[1mLinking CXX shared module test_moveit/planning.cpython-312-x86_64-linux-gnu.so[0m
+[85.974s] [01m[Klto-wrapper:[m[K [01;35m[Kwarning: [m[Kusing serial compilation of 2 LTRANS jobs
+[85.974s] [01m[Klto-wrapper:[m[K [01;36m[Knote: [m[Ksee the ‘[01m[K-flto[m[K’ option documentation for more information
+[89.469s] [100%] Built target core
+[91.472s] [100%] Built target planning
+[91.488s] Invoked command in '/root/ros2_ws/build/moveit_py' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_ros_planning_interface:/root/ros2_ws/install/moveit_ros_move_group:/root/ros2_ws/install/moveit_ros_warehouse:/root/ros2_ws/install/moveit_kinematics:/root/ros2_ws/install/moveit_ros_planning:/root/ros2_ws/install/moveit_simple_controller_manager:/root/ros2_ws/install/moveit_ros_occupancy_map_monitor:/root/ros2_ws/install/moveit_core:/root/ros2_ws/install/moveit_resources_panda_moveit_config:/root/ros2_ws/install/moveit_resources_fanuc_moveit_config:/root/ros2_ws/install/moveit_resources_pr2_description:/root/ros2_ws/install/moveit_resources_panda_description:/root/ros2_ws/install/moveit_resources_fanuc_description:/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/moveit_configs_utils:/root/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_ros_planning_interface:/root/ros2_ws/install/moveit_ros_move_group:/root/ros2_ws/install/moveit_ros_warehouse:/root/ros2_ws/install/moveit_kinematics:/root/ros2_ws/install/moveit_ros_planning:/root/ros2_ws/install/moveit_simple_controller_manager:/root/ros2_ws/install/moveit_ros_occupancy_map_monitor:/root/ros2_ws/install/moveit_core:/root/ros2_ws/install/moveit_resources_panda_moveit_config:/root/ros2_ws/install/moveit_resources_fanuc_moveit_config:/root/ros2_ws/install/moveit_resources_pr2_description:/root/ros2_ws/install/moveit_resources_panda_description:/root/ros2_ws/install/moveit_resources_fanuc_description:/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros2_ws/install/moveit_ros_planning_interface/lib:/root/ros2_ws/install/moveit_ros_move_group/lib:/root/ros2_ws/install/moveit_ros_warehouse/lib:/root/ros2_ws/install/moveit_kinematics/lib:/root/ros2_ws/install/moveit_ros_planning/lib:/root/ros2_ws/install/moveit_simple_controller_manager/lib:/root/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/root/ros2_ws/install/moveit_core/lib:/root/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/root/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:/root/ros2_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/build/moveit_py -- -j20 -l20
+[91.489s] Invoking command in '/root/ros2_ws/build/moveit_py': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_ros_planning_interface:/root/ros2_ws/install/moveit_ros_move_group:/root/ros2_ws/install/moveit_ros_warehouse:/root/ros2_ws/install/moveit_kinematics:/root/ros2_ws/install/moveit_ros_planning:/root/ros2_ws/install/moveit_simple_controller_manager:/root/ros2_ws/install/moveit_ros_occupancy_map_monitor:/root/ros2_ws/install/moveit_core:/root/ros2_ws/install/moveit_resources_panda_moveit_config:/root/ros2_ws/install/moveit_resources_fanuc_moveit_config:/root/ros2_ws/install/moveit_resources_pr2_description:/root/ros2_ws/install/moveit_resources_panda_description:/root/ros2_ws/install/moveit_resources_fanuc_description:/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/moveit_configs_utils:/root/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_ros_planning_interface:/root/ros2_ws/install/moveit_ros_move_group:/root/ros2_ws/install/moveit_ros_warehouse:/root/ros2_ws/install/moveit_kinematics:/root/ros2_ws/install/moveit_ros_planning:/root/ros2_ws/install/moveit_simple_controller_manager:/root/ros2_ws/install/moveit_ros_occupancy_map_monitor:/root/ros2_ws/install/moveit_core:/root/ros2_ws/install/moveit_resources_panda_moveit_config:/root/ros2_ws/install/moveit_resources_fanuc_moveit_config:/root/ros2_ws/install/moveit_resources_pr2_description:/root/ros2_ws/install/moveit_resources_panda_description:/root/ros2_ws/install/moveit_resources_fanuc_description:/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros2_ws/install/moveit_ros_planning_interface/lib:/root/ros2_ws/install/moveit_ros_move_group/lib:/root/ros2_ws/install/moveit_ros_warehouse/lib:/root/ros2_ws/install/moveit_kinematics/lib:/root/ros2_ws/install/moveit_ros_planning/lib:/root/ros2_ws/install/moveit_simple_controller_manager/lib:/root/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/root/ros2_ws/install/moveit_core/lib:/root/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/root/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:/root/ros2_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/build/moveit_py
+[91.500s] -- Install configuration: ""
+[91.500s] -- Installing: /root/ros2_ws/install/moveit_py/lib/libmoveit_py_utils.so.
+[91.501s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/moveit_py/lib/libmoveit_py_utils.so." to ""
+[91.502s] -- Installing: /root/ros2_ws/install/moveit_py/lib/libmoveit_py_utils.so
+[91.502s] -- Installing: /root/ros2_ws/install/moveit_py/include/moveit_py
+[91.502s] -- Installing: /root/ros2_ws/install/moveit_py/include/moveit_py/moveit_py
+[91.502s] -- Installing: /root/ros2_ws/install/moveit_py/include/moveit_py/moveit_py/moveit_py_utils
+[91.503s] -- Installing: /root/ros2_ws/install/moveit_py/include/moveit_py/moveit_py/moveit_py_utils/copy_ros_msg.hpp
+[91.503s] -- Installing: /root/ros2_ws/install/moveit_py/include/moveit_py/moveit_py/moveit_py_utils/ros_msg_typecasters.hpp
+[91.503s] -- Installing: /root/ros2_ws/install/moveit_py/include/moveit_py/moveit_py/moveit_py_utils/ros_msg_typecasters.h
+[91.503s] -- Installing: /root/ros2_ws/install/moveit_py/include/moveit_py/moveit_py/moveit_py_utils/copy_ros_msg.h
+[91.503s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/environment/pythonpath.sh
+[91.503s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/environment/pythonpath.dsv
+[91.503s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit-2.12.0-py3.12.egg-info
+[91.503s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit-2.12.0-py3.12.egg-info/top_level.txt
+[91.503s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit-2.12.0-py3.12.egg-info/PKG-INFO
+[91.503s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit-2.12.0-py3.12.egg-info/dependency_links.txt
+[91.503s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit-2.12.0-py3.12.egg-info/SOURCES.txt
+[91.503s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit
+[91.503s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/core
+[91.503s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/core/robot_state.pyi
+[91.503s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/core/robot_trajectory.pyi
+[91.503s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/core/planning_interface.pyi
+[91.503s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/core/__init__.pyi
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/core/planning_scene.pyi
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/core/collision_detection.pyi
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/core/kinematic_constraints.pyi
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/core/robot_model.pyi
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/core/controller_manager.pyi
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/py.typed
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/__init__.py
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/__init__.py
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/README.md
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/devices
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/devices/ps4_dualshock.py
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/devices/__init__.py
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/devices/__init__.pyi
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/devices/ps4_dualshock.pyi
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/teleop.pyi
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/__init__.pyi
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/teleop.py
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/README.md
+[91.504s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/utils.py
+[91.505s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/policies
+[91.505s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/policies/__init__.py
+[91.505s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/policies/policy.pyi
+[91.505s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/policies/__init__.pyi
+[91.505s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/policies/policy.py
+[91.505s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/utils.pyi
+[91.505s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/planning.pyi
+[91.551s] Listing '/root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit'...
+[91.552s] Compiling '/root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/__init__.py'...
+[91.552s] Listing '/root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/core'...
+[91.552s] Listing '/root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/policies'...
+[91.552s] Compiling '/root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/policies/__init__.py'...
+[91.552s] Compiling '/root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/policies/policy.py'...
+[91.552s] Listing '/root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client'...
+[91.552s] Compiling '/root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/__init__.py'...
+[91.552s] Listing '/root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/devices'...
+[91.552s] Compiling '/root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/devices/__init__.py'...
+[91.552s] Compiling '/root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/devices/ps4_dualshock.py'...
+[91.552s] Compiling '/root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/servo_client/teleop.py'...
+[91.552s] Compiling '/root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/utils.py'...
+[91.558s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/core.cpython-312-x86_64-linux-gnu.so
+[91.560s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/core.cpython-312-x86_64-linux-gnu.so" to ""
+[91.560s] -- Installing: /root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/planning.cpython-312-x86_64-linux-gnu.so
+[91.561s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/moveit_py/lib/python3.12/site-packages/moveit/planning.cpython-312-x86_64-linux-gnu.so" to ""
+[91.561s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/environment/library_path.sh
+[91.561s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/environment/library_path.dsv
+[91.561s] -- Installing: /root/ros2_ws/install/moveit_py/share/ament_index/resource_index/package_run_dependencies/moveit_py
+[91.561s] -- Installing: /root/ros2_ws/install/moveit_py/share/ament_index/resource_index/parent_prefix_path/moveit_py
+[91.561s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/environment/ament_prefix_path.sh
+[91.561s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/environment/ament_prefix_path.dsv
+[91.561s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/environment/path.sh
+[91.561s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/environment/path.dsv
+[91.561s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/local_setup.bash
+[91.561s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/local_setup.sh
+[91.562s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/local_setup.zsh
+[91.562s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/local_setup.dsv
+[91.562s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/package.dsv
+[91.562s] -- Installing: /root/ros2_ws/install/moveit_py/share/ament_index/resource_index/packages/moveit_py
+[91.562s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/cmake/moveit_py_utilsTargetsExport.cmake
+[91.562s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/cmake/moveit_py_utilsTargetsExport-noconfig.cmake
+[91.562s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/cmake/ament_cmake_export_targets-extras.cmake
+[91.562s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/cmake/ament_cmake_export_dependencies-extras.cmake
+[91.562s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/cmake/moveit_pyConfig.cmake
+[91.562s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/cmake/moveit_pyConfig-version.cmake
+[91.562s] -- Installing: /root/ros2_ws/install/moveit_py/share/moveit_py/package.xml
+[91.565s] Invoked command in '/root/ros2_ws/build/moveit_py' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_ros_planning_interface:/root/ros2_ws/install/moveit_ros_move_group:/root/ros2_ws/install/moveit_ros_warehouse:/root/ros2_ws/install/moveit_kinematics:/root/ros2_ws/install/moveit_ros_planning:/root/ros2_ws/install/moveit_simple_controller_manager:/root/ros2_ws/install/moveit_ros_occupancy_map_monitor:/root/ros2_ws/install/moveit_core:/root/ros2_ws/install/moveit_resources_panda_moveit_config:/root/ros2_ws/install/moveit_resources_fanuc_moveit_config:/root/ros2_ws/install/moveit_resources_pr2_description:/root/ros2_ws/install/moveit_resources_panda_description:/root/ros2_ws/install/moveit_resources_fanuc_description:/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/moveit_configs_utils:/root/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_ros_planning_interface:/root/ros2_ws/install/moveit_ros_move_group:/root/ros2_ws/install/moveit_ros_warehouse:/root/ros2_ws/install/moveit_kinematics:/root/ros2_ws/install/moveit_ros_planning:/root/ros2_ws/install/moveit_simple_controller_manager:/root/ros2_ws/install/moveit_ros_occupancy_map_monitor:/root/ros2_ws/install/moveit_core:/root/ros2_ws/install/moveit_resources_panda_moveit_config:/root/ros2_ws/install/moveit_resources_fanuc_moveit_config:/root/ros2_ws/install/moveit_resources_pr2_description:/root/ros2_ws/install/moveit_resources_panda_description:/root/ros2_ws/install/moveit_resources_fanuc_description:/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros2_ws/install/moveit_ros_planning_interface/lib:/root/ros2_ws/install/moveit_ros_move_group/lib:/root/ros2_ws/install/moveit_ros_warehouse/lib:/root/ros2_ws/install/moveit_kinematics/lib:/root/ros2_ws/install/moveit_ros_planning/lib:/root/ros2_ws/install/moveit_simple_controller_manager/lib:/root/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/root/ros2_ws/install/moveit_core/lib:/root/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/root/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:/root/ros2_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/build/moveit_py

@@ -1,0 +1,3 @@
+Instantiated with filepath=None->None, scale=[11.795443534851074, 11.795445442199707, 11.79544734954834], mesh=<bpy_struct, Mesh("ZahnradGross.001") at 0x7f3ee30a2a08>, meshname=ZahnradGross.001, material=None, mesh_orientation=None, {}
+->trying export of <bpy_struct, Mesh("ZahnradGross.001") at 0x7f3ee30a2a08> to /home/kali/freecad.robotcad/docker/ros2_ws/src/unnamed/meshes/stl/ZahnradGross.001.stl
+->wrote stl to /home/kali/freecad.robotcad/docker/ros2_ws/src/unnamed/meshes/stl/ZahnradGross.001.stl from bpy_types.Mesh

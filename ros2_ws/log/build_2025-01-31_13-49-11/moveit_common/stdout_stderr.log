@@ -1,0 +1,24 @@
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/ros2_ws/build/moveit_common
+-- Install configuration: ""
+-- Installing: /root/ros2_ws/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+-- Installing: /root/ros2_ws/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+-- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/environment/path.sh
+-- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/environment/path.dsv
+-- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/local_setup.bash
+-- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/local_setup.sh
+-- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/local_setup.zsh
+-- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/local_setup.dsv
+-- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/package.dsv
+-- Installing: /root/ros2_ws/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+-- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+-- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+-- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+-- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/package.xml
+-- Up-to-date: /root/ros2_ws/install/moveit_common/share/moveit_common/cmake
+-- Installing: /root/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake

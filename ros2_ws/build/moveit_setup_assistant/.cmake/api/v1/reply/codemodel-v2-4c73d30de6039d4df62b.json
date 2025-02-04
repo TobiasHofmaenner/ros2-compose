@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-498c52bdef3e41ac3029.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_setup_assistant",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_assistant::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_assistant-Release-5d658fee5695572a970c.json",
+					"name" : "moveit_setup_assistant",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_assistant_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_assistant_autogen-Release-4a852a7af39765eefd95.json",
+					"name" : "moveit_setup_assistant_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_assistant_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_assistant_autogen_timestamp_deps-Release-2a0a735efd92b7c581f0.json",
+					"name" : "moveit_setup_assistant_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_assistant_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_assistant_uninstall-Release-bbd595cd6950cbc11f70.json",
+					"name" : "moveit_setup_assistant_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_assistant_updater::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_assistant_updater-Release-bdaa09f7e72782c87393.json",
+					"name" : "moveit_setup_assistant_updater",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_assistant_updater_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_assistant_updater_autogen-Release-37f4ace80b63f9c0381d.json",
+					"name" : "moveit_setup_assistant_updater_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_assistant_updater_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_assistant_updater_autogen_timestamp_deps-Release-251a530ee23f3a4c9bca.json",
+					"name" : "moveit_setup_assistant_updater_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-243aaeeea5d997fee8e1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_ws/build/moveit_setup_assistant",
+		"source" : "/root/ros2_ws/src/moveit2/moveit_setup_assistant/moveit_setup_assistant"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

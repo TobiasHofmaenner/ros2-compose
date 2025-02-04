@@ -1,0 +1,87 @@
+[0.016s] Invoking command in '/root/ros2_ws/build/kortex_driver': AMENT_PREFIX_PATH=/root/ros2_ws/install/kortex_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/ros2_kortex/kortex_driver -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/kortex_driver
+[0.033s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FetchContent.cmake:1331 (message):
+[0.033s]   The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+[0.033s]   not set.  The policy's OLD behavior will be used.  When using a URL
+[0.033s]   download, the timestamps of extracted files should preferably be that of
+[0.034s]   the time of extraction, otherwise code that depends on the extracted
+[0.034s]   contents might not be rebuilt if the URL changes.  The OLD behavior
+[0.034s]   preserves the timestamps from the archive instead, but this is usually not
+[0.034s]   what you want.  Update your project to the NEW behavior or specify the
+[0.035s]   DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+[0.035s]   robustness issue.
+[0.035s] Call Stack (most recent call first):
+[0.035s]   CMakeLists.txt:3 (FetchContent_Declare)
+[0.035s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.035s] [0m
+[3.801s] -- The C compiler identification is GNU 13.3.0
+[3.922s] -- The CXX compiler identification is GNU 13.3.0
+[3.958s] -- Detecting C compiler ABI info
+[4.131s] -- Detecting C compiler ABI info - done
+[4.152s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.153s] -- Detecting C compile features
+[4.154s] -- Detecting C compile features - done
+[4.170s] -- Detecting CXX compiler ABI info
+[4.355s] -- Detecting CXX compiler ABI info - done
+[4.381s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.381s] -- Detecting CXX compile features
+[4.382s] -- Detecting CXX compile features - done
+[4.393s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.723s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.007s] -- Found hardware_interface: 4.24.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[5.153s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.197s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.251s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.713s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[5.812s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.820s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.875s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[5.994s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[6.001s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[6.038s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.045s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[6.064s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[6.086s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.635s] -- Found kortex_api: 0.2.3 (/root/ros2_ws/install/kortex_api/share/kortex_api/cmake)
+[6.784s] -- Configuring done (6.8s)
+[6.821s] -- Generating done (0.0s)
+[6.831s] -- Build files have been written to: /root/ros2_ws/build/kortex_driver
+[6.847s] Invoked command in '/root/ros2_ws/build/kortex_driver' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/kortex_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/ros2_kortex/kortex_driver -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/kortex_driver
+[6.849s] Invoking command in '/root/ros2_ws/build/kortex_driver': AMENT_PREFIX_PATH=/root/ros2_ws/install/kortex_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/kortex_driver -- -j20 -l20
+[6.924s] [ 33%] [32mBuilding CXX object CMakeFiles/kortex_driver.dir/src/hardware_interface.cpp.o[0m
+[6.927s] [ 66%] [32mBuilding CXX object CMakeFiles/kortex_driver.dir/src/kortex_math_util.cpp.o[0m
+[14.312s] [100%] [32m[1mLinking CXX shared library libkortex_driver.so[0m
+[14.847s] [100%] Built target kortex_driver
+[14.863s] Invoked command in '/root/ros2_ws/build/kortex_driver' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/kortex_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/kortex_driver -- -j20 -l20
+[14.865s] Invoking command in '/root/ros2_ws/build/kortex_driver': AMENT_PREFIX_PATH=/root/ros2_ws/install/kortex_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/kortex_driver
+[14.877s] -- Install configuration: ""
+[14.878s] -- Installing: /root/ros2_ws/install/kortex_driver/share/kortex_driver/hardware_interface_plugin.xml
+[14.878s] -- Installing: /root/ros2_ws/install/kortex_driver/lib/libkortex_driver.so
+[14.886s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/kortex_driver/lib/libkortex_driver.so" to ""
+[14.886s] -- Installing: /root/ros2_ws/install/kortex_driver/include
+[14.886s] -- Installing: /root/ros2_ws/install/kortex_driver/include/kortex_driver
+[14.886s] -- Installing: /root/ros2_ws/install/kortex_driver/include/kortex_driver/visibility_control.h
+[14.886s] -- Installing: /root/ros2_ws/install/kortex_driver/include/kortex_driver/hardware_interface.hpp
+[14.886s] -- Installing: /root/ros2_ws/install/kortex_driver/include/kortex_driver/kortex_math_util.hpp
+[14.887s] -- Installing: /root/ros2_ws/install/kortex_driver/share/kortex_driver/environment/library_path.sh
+[14.887s] -- Installing: /root/ros2_ws/install/kortex_driver/share/kortex_driver/environment/library_path.dsv
+[14.887s] -- Installing: /root/ros2_ws/install/kortex_driver/share/ament_index/resource_index/package_run_dependencies/kortex_driver
+[14.887s] -- Installing: /root/ros2_ws/install/kortex_driver/share/ament_index/resource_index/parent_prefix_path/kortex_driver
+[14.887s] -- Installing: /root/ros2_ws/install/kortex_driver/share/kortex_driver/environment/ament_prefix_path.sh
+[14.888s] -- Installing: /root/ros2_ws/install/kortex_driver/share/kortex_driver/environment/ament_prefix_path.dsv
+[14.888s] -- Installing: /root/ros2_ws/install/kortex_driver/share/kortex_driver/environment/path.sh
+[14.888s] -- Installing: /root/ros2_ws/install/kortex_driver/share/kortex_driver/environment/path.dsv
+[14.889s] -- Installing: /root/ros2_ws/install/kortex_driver/share/kortex_driver/local_setup.bash
+[14.889s] -- Installing: /root/ros2_ws/install/kortex_driver/share/kortex_driver/local_setup.sh
+[14.889s] -- Installing: /root/ros2_ws/install/kortex_driver/share/kortex_driver/local_setup.zsh
+[14.889s] -- Installing: /root/ros2_ws/install/kortex_driver/share/kortex_driver/local_setup.dsv
+[14.889s] -- Installing: /root/ros2_ws/install/kortex_driver/share/kortex_driver/package.dsv
+[14.889s] -- Installing: /root/ros2_ws/install/kortex_driver/share/ament_index/resource_index/packages/kortex_driver
+[14.890s] -- Installing: /root/ros2_ws/install/kortex_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/kortex_driver
+[14.890s] -- Installing: /root/ros2_ws/install/kortex_driver/share/kortex_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.890s] -- Installing: /root/ros2_ws/install/kortex_driver/share/kortex_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[14.890s] -- Installing: /root/ros2_ws/install/kortex_driver/share/kortex_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.890s] -- Installing: /root/ros2_ws/install/kortex_driver/share/kortex_driver/cmake/kortex_driverConfig.cmake
+[14.890s] -- Installing: /root/ros2_ws/install/kortex_driver/share/kortex_driver/cmake/kortex_driverConfig-version.cmake
+[14.891s] -- Installing: /root/ros2_ws/install/kortex_driver/share/kortex_driver/package.xml
+[14.893s] Invoked command in '/root/ros2_ws/build/kortex_driver' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/kortex_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/kortex_driver

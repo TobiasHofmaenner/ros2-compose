@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="generated_robot">
+
+  <ros2_control name="MyRobotHardware" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+    <joint name="SOLID001_link_joint">
+      <state_interface name="position"/>
+      <command_interface name="position"/>
+    </joint>
+    <joint name="ZahnradGross003_link_joint">
+      <state_interface name="position"/>
+      <command_interface name="position"/>
+    </joint>
+    <joint name="ZahnradGross004_link_joint">
+      <state_interface name="position"/>
+      <command_interface name="position"/>
+    </joint>
+  </ros2_control>
+
+  <gazebo>
+    <joint name="SOLID001_link_joint">
+      <dynamics damping="0.1"/>
+    </joint>
+    <joint name="ZahnradGross003_link_joint">
+      <dynamics damping="0.1"/>
+    </joint>
+    <joint name="ZahnradGross004_link_joint">
+      <dynamics damping="0.1"/>
+    </joint>
+  </gazebo>
+</robot>
